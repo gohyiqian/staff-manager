@@ -37,7 +37,13 @@ npm i dotenv --save
 npm i cors --save
 ```
 
-# Starting App
+## Install DB
+
+Install MariaDB HeidiSQL
+Create a database table called 'persons'
+![HeidiSQL database](db.png)
+
+## Starting App
 
 ```bash
 # backend
@@ -46,7 +52,7 @@ npm run dev
 npm start
 ```
 
-# Remote Git
+## Remote Git
 
 ```bash
 git remote add origin git@github.com:<name>/<repo-name>.git
