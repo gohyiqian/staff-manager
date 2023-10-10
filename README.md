@@ -1,3 +1,59 @@
+# Person App
+
+![Alt text](architecture.png)
+
+## Frontend Dependencies
+
+```bash
+npm i -D tailwindcss
+npx tailwindcss init
+npm i @reduxjs/toolkit react-redux
+npm i sweetalert2
+npm i axios
+```
+
+## Create backend
+
+```bash
+mkdir node-backend
+cd node-backend
+npm init -y
+```
+
+## Backend dependencies
+
+```bash
+# framework nodejs
+npm i express --save
+# ORM
+npm i sequelize --save
+# Driver MySQL
+npm i mysql2 --save
+# Reload server
+npm i nodemon --save
+# enviroment
+npm i dotenv --save
+# cors
+npm i cors --save
+```
+
+# Starting App
+
+```bash
+# backend
+npm run dev
+# frontend
+npm start
+```
+
+# Remote Git
+
+```bash
+git remote add origin git@github.com:<name>/<repo-name>.git
+git branch -M main
+git push -u origin main
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
